@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>MyTube</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+
+    <div class="logo">
+        <span class="logo-icon">▶</span>
+        <span>MyTube</span>
+    </div>
+
+    <div class="search-box">
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Cari video..."
+        >
+
+        <button onclick="searchVideo()">
+            🔍
+        </button>
+    </div>
+
+    <button class="profile">
+        👤
+    </button>
+
+</header>
+
+
+<!-- CATEGORY -->
+<nav class="categories">
+
+    <button>Semua</button>
+    <button>Gaming</button>
+    <button>Musik</button>
+    <button>Anime</button>
+    <button>Teknologi</button>
+    <button>Indonesia</button>
+
+</nav>
+
+
+<!-- MAIN -->
+<main>
+
+    <h2>Video Terbaru</h2>
+
+    <section id="videoContainer" class="video-grid">
+
+
+        <!-- VIDEO 1 -->
+        <article class="video-card"
+                 data-title="Video YouTube Indonesia">
+
+            <div class="thumbnail">
+
+                <img
+                    src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"
+                    alt="Thumbnail">
+
+                <span class="duration">
+                    3:32
+                </span>
+
+            </div>
+
+            <div class="video-info">
+
+                <div class="channel-icon">
+                    ▶
+                </div>
+
+                <div>
+
+                    <h3>
+                        Video YouTube Indonesia
+                    </h3>
+
+                    <p>
+                        MyTube Channel
+                    </p>
+
+                    <p>
+                        1,2 jt ditonton • 2 hari lalu
+                    </p>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- VIDEO 2 -->
+        <article class="video-card"
+                 data-title="Video Gaming">
+
+            <div class="thumbnail">
+
+                <img
+                    src="https://img.youtube.com/vi/ScMzIvxBSi4/maxresdefault.jpg"
+                    alt="Thumbnail">
+
+                <span class="duration">
+                    5:21
+                </span>
+
+            </div>
+
+            <div class="video-info">
+
+                <div class="channel-icon">
+                    🎮
+                </div>
+
+                <div>
+
+                    <h3>
+                        Video Gaming
+                    </h3>
+
+                    <p>
+                        Gaming Channel
+                    </p>
+
+                    <p>
+                        850 rb ditonton • 1 minggu lalu
+                    </p>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+    </section>
+
+</main>
+
+
+<!-- BOTTOM NAV -->
+<nav class="bottom-nav">
+
+    <button>
+        🏠
+        <span>Beranda</span>
+    </button>
+
+    <button>
+        🔥
+        <span>Trending</span>
+    </button>
+
+    <button>
+        ➕
+        <span>Buat</span>
+    </button>
+
+    <button>
+        📺
+        <span>Subscription</span>
+    </button>
+
+    <button>
+        👤
+        <span>Anda</span>
+    </button>
+
+</nav>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
